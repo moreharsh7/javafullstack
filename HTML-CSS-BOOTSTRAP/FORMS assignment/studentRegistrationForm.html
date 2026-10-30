@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+
+    <style>
+        body {
+            font-family: "Times New Roman", serif;
+        }
+
+        .container {
+            border: 4px solid #d9dfe1;
+            padding: 20px 75px 55px;
+            margin: 20px auto;
+            width: 390px;
+        }
+
+        h1 {
+            font-size: 40px;
+            margin-bottom: 55px;
+        }
+
+        p {
+            font-size: 23px;
+        }
+
+        label {
+            font-size: 23px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 6px;
+            margin: 2px 0;
+            box-sizing: border-box;
+            font-size: 18px;
+        }
+
+        button {
+            width: 100%;
+            padding: 4px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .login {
+            text-align: center;
+            margin-top: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Register</h1>
+
+        <p>Kindly fill in this form to register.</p>
+
+        <form>
+
+            <label>Username</label>
+            <input type="text" placeholder="Enter username" required>
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter Email" required>
+
+            <label>Password</label>
+            <input type="password" placeholder="Enter Password" required>
+
+            <label>Repeat Password</label>
+            <input type="password" placeholder="Repeat Password" required>
+
+            <button type="submit">Register</button>
+
+        </form>
+
+        <div class="login">
+            <p>Already have an account?
+                <a href="#">Log in</a>.
+            </p>
+        </div>
+
+    </div>
+
+</body>
+</html>
