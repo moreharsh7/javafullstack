@@ -1,0 +1,14 @@
+* { box-sizing: border-box; }
+body { margin: 35px; font-family: Arial, sans-serif; color: #333; }
+.bms-header { width: 100%; }
+.bms-top { min-height: 55px; display: flex; align-items: center; gap: 20px; padding: 8px 10%; }
+.brand { font-size: 18px; font-weight: bold; white-space: nowrap; color: #333; }
+.brand span { color: #e83e58; }
+.search { border: 1px solid #ddd; border-radius: 3px; height: 34px; display: flex; align-items: center; padding: 0 12px; flex: 1; color: #888; font-size: 11px; }
+.city { font-size: 11px; white-space: nowrap; }
+.signin { background: #f0445e; color: white; border: 0; border-radius: 4px; padding: 7px 14px; font-size: 11px; }
+.menu { font-size: 20px; }
+.bms-menu { background: #f5f5f5; min-height: 30px; display: flex; justify-content: space-between; align-items: center; padding: 0 14%; }
+.bms-menu div { display: flex; gap: 17px; }
+.bms-menu a { text-decoration: none; color: #555; font-size: 10px; white-space: nowrap; }
+@media (max-width: 700px) { body { margin: 12px; } .bms-top { padding: 8px 0; gap: 9px; flex-wrap: wrap; } .search { min-width: 180px; } .bms-menu { padding: 8px; flex-wrap: wrap; gap: 12px; } .bms-menu div { flex-wrap: wrap; gap: 10px; } }

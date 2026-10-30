@@ -1,0 +1,11 @@
+* { box-sizing: border-box; }
+body { margin: 35px; font-family: Arial, sans-serif; }
+.ws-navbar { min-height: 65px; background: #d1e8e5; display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 10px 20px; }
+.ws-logo { color: #236c69; font-size: 11px; font-weight: bold; line-height: 12px; min-width: 95px; }
+.ws-logo strong { font-size: 14px; letter-spacing: 1px; }
+.ws-logo small { display: block; font-size: 8px; font-weight: normal; }
+.ws-links { display: flex; align-items: center; justify-content: center; gap: 18px; flex: 1; }
+.ws-links a { text-decoration: none; color: #444; font-size: 11px; white-space: nowrap; }
+.ws-links .current { color: #f07845; }
+.contact { text-decoration: none; color: white; background: #ff6b22; border-radius: 20px; padding: 8px 16px; font-size: 10px; white-space: nowrap; }
+@media (max-width: 850px) { body { margin: 12px; } .ws-navbar { flex-wrap: wrap; } .ws-links { flex-wrap: wrap; gap: 12px; } }

@@ -1,0 +1,12 @@
+* { box-sizing: border-box; }
+body { margin: 35px; font-family: Arial, sans-serif; color: #333; }
+.linkedin-navbar { display: flex; align-items: center; gap: 8px; min-height: 58px; border-bottom: 3px solid #eee; }
+.linkedin-logo { background: #0a66c2; color: white; font-weight: bold; font-size: 27px; line-height: 25px; padding: 1px 4px; border-radius: 2px; }
+.search { width: 205px; height: 34px; border: 1px solid #bbb; border-radius: 20px; display: flex; align-items: center; gap: 9px; padding: 0 12px; font-size: 18px; }
+.search span { font-size: 12px; color: #666; }
+.nav-links { display: flex; align-items: stretch; justify-content: space-around; flex: 1; margin-left: 35px; }
+.nav-links a { color: #555; text-decoration: none; text-align: center; font-size: 19px; padding: 7px 8px 3px; position: relative; white-space: nowrap; }
+.nav-links small { display: block; font-size: 10px; margin-top: 3px; }
+.nav-links b { background: #d71920; color: white; border-radius: 10px; padding: 1px 4px; font-size: 9px; }
+.nav-links .active { color: #111; border-bottom: 2px solid #111; }
+@media (max-width: 800px) { body { margin: 12px; } .linkedin-navbar { flex-wrap: wrap; } .nav-links { margin: 8px 0 0; flex-wrap: wrap; } .search { flex: 1; } }

@@ -1,0 +1,18 @@
+* { box-sizing: border-box; }
+body { margin: 30px; font-family: Arial, sans-serif; color: #222; }
+h2 { font-size: 22px; font-weight: 400; margin-bottom: 8px; }
+.wa-navbar {
+  min-height: 48px; background: #17191a; color: #f5f5f5;
+  display: flex; align-items: center; gap: 14px; padding: 8px 14px;
+}
+.group-icon {
+  width: 30px; height: 30px; border-radius: 50%; background: #512331;
+  color: #ff7890; display: grid; place-items: center; font-size: 10px;
+}
+.group-info { display: flex; flex-direction: column; min-width: 0; flex: 1; }
+.group-info strong { font-size: 13px; }
+.group-info small { color: #aaa; font-size: 10px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+button { cursor: pointer; }
+.list-button { background: transparent; color: #eee; border: 1px solid #393b3c; border-radius: 18px; padding: 8px 12px; font-size: 11px; }
+.nav-icon { background: transparent; border: 0; color: #eee; font-size: 20px; padding: 4px 8px; }
+@media (max-width: 600px) { body { margin: 12px; } .list-button { display: none; } }

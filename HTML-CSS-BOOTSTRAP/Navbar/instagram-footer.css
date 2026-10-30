@@ -1,0 +1,7 @@
+* { box-sizing: border-box; }
+body { margin: 35px; font-family: Arial, sans-serif; }
+.instagram-footer { background: #080d10; color: #aeb3b6; min-height: 65px; padding: 18px 12px 12px; text-align: center; }
+.footer-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-bottom: 12px; }
+.footer-links a { color: #aeb3b6; text-decoration: none; font-size: 9px; }
+.footer-bottom { display: flex; justify-content: center; gap: 12px; font-size: 9px; }
+@media (max-width: 600px) { body { margin: 12px; } .footer-links { gap: 8px; } }
